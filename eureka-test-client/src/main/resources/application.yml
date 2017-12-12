@@ -1,0 +1,13 @@
+
+server:
+  port: 30089
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:30002/eureka/
+
+spring:
+  application:
+    name: eureka-client-test
+
