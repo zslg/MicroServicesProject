@@ -3,3 +3,10 @@ server:
 
 test:
   name: Aloha
+
+
+spring:
+  cloud:
+    config:
+#    fail if config server is not running
+      fail-fast: true
