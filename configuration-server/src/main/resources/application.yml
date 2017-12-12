@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zslg/configuration-server.git
+          search-paths: microservices
+  application:
+    name: configuration-server
