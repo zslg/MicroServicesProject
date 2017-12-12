@@ -7,3 +7,6 @@ spring:
           search-paths: microservices
   application:
     name: configuration-server
+server:
+  port: 30001
+
